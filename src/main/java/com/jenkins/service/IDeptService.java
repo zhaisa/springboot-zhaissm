@@ -2,8 +2,10 @@ package com.jenkins.service;
 
 import java.util.List;
 
-import com.jenkins.bean.Dept;
+import org.springframework.stereotype.Service;
 
+import com.jenkins.bean.Dept;
+@Service
 public interface IDeptService {
 	 public List<Dept> list() ;
 }
